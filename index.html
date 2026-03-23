@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">YN<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">PORTFOLIO</div>
+
+    <div class="hero-content">
+      <p class="hero-tag reveal">Available for work &nbsp;●&nbsp; London, UK</p>
+      <h1 class="hero-title reveal">
+        <span class="line">Your</span>
+        <span class="line italic">Name</span>
+      </h1>
+      <p class="hero-sub reveal">Full-Stack Developer &amp; UI/UX Designer crafting<br/>digital experiences that matter.</p>
+      <div class="hero-cta reveal">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <div class="hero-stat-bar reveal">
+      <div class="stat"><span class="num">5+</span><span class="label">Years Exp.</span></div>
+      <div class="divider"></div>
+      <div class="stat"><span class="num">40+</span><span class="label">Projects</span></div>
+      <div class="divider"></div>
+      <div class="stat"><span class="num">20+</span><span class="label">Clients</span></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>React</span><span>•</span>
+      <span>Node.js</span><span>•</span>
+      <span>TypeScript</span><span>•</span>
+      <span>Python</span><span>•</span>
+      <span>Figma</span><span>•</span>
+      <span>MongoDB</span><span>•</span>
+      <span>AWS</span><span>•</span>
+      <span>Docker</span><span>•</span>
+      <span>GraphQL</span><span>•</span>
+      <span>Next.js</span><span>•</span>
+      <span>React</span><span>•</span>
+      <span>Node.js</span><span>•</span>
+      <span>TypeScript</span><span>•</span>
+      <span>Python</span><span>•</span>
+      <span>Figma</span><span>•</span>
+      <span>MongoDB</span><span>•</span>
+      <span>AWS</span><span>•</span>
+      <span>Docker</span><span>•</span>
+      <span>GraphQL</span><span>•</span>
+      <span>Next.js</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 class="section-title">A developer<br/><em>with taste.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="img-placeholder">
+            <div class="img-initials">YN</div>
+          </div>
+          <div class="about-badge">Open to Opportunities</div>
+        </div>
+        <div class="about-text reveal">
+          <p class="lead">I build things for the web — from sleek interfaces to robust back-end systems. I care deeply about both code quality and design.</p>
+          <p>With a background in computer science and a keen eye for design, I bridge the gap between engineering and aesthetics. I've shipped products used by thousands of people and love every part of the process — from whiteboard to deployment.</p>
+          <p>When I'm not coding, you'll find me exploring design systems, tinkering with side projects, or hunting for good coffee in London.</p>
+          <div class="about-links">
+            <a href="resume.pdf" class="btn btn-primary" download>Download CV</a>
+            <a href="https://github.com/yourusername" target="_blank" class="btn btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORK ===== -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Work</span>
+        <h2 class="section-title">Selected<br/><em>Projects.</em></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal" data-index="01">
+          <div class="project-img" style="background: linear-gradient(135deg,#0f2027,#203a43,#2c5364)">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-body">
+                <div class="mockup-line w80"></div>
+                <div class="mockup-line w60"></div>
+                <div class="mockup-line w90"></div>
+                <div class="mockup-line w40"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">01</span>
+            <h3 class="project-title">Smart Study Planner</h3>
+            <p class="project-desc">AI-powered academic planner with Flask, MongoDB, and a clean REST API. Features scheduling, analytics, and real-time sync.</p>
+            <div class="project-tags">
+              <span>Python</span><span>Flask</span><span>MongoDB</span><span>REST API</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal" data-index="02">
+          <div class="project-img" style="background: linear-gradient(135deg,#1a1a2e,#16213e,#0f3460)">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-body">
+                <div class="mockup-line w70"></div>
+                <div class="mockup-line w90"></div>
+                <div class="mockup-line w50"></div>
+                <div class="mockup-line w80"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">02</span>
+            <h3 class="project-title">E-Commerce Dashboard</h3>
+            <p class="project-desc">A full-stack dashboard for real-time order tracking, inventory management, and revenue analytics with live charts.</p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Chart.js</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal" data-index="03">
+          <div class="project-img" style="background: linear-gradient(135deg,#0d0d0d,#1a0a2e,#2d0057)">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-body">
+                <div class="mockup-line w90"></div>
+                <div class="mockup-line w60"></div>
+                <div class="mockup-line w75"></div>
+                <div class="mockup-line w45"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">03</span>
+            <h3 class="project-title">Vision Screen App</h3>
+            <p class="project-desc">Smart Eye vision screening system built for Ulster University — leveraging computer vision and real-time image processing.</p>
+            <div class="project-tags">
+              <span>Python</span><span>OpenCV</span><span>TensorFlow</span><span>Flask</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal" data-index="04">
+          <div class="project-img" style="background: linear-gradient(135deg,#0f0c29,#302b63,#24243e)">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Project ↗</a>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-body">
+                <div class="mockup-line w55"></div>
+                <div class="mockup-line w85"></div>
+                <div class="mockup-line w65"></div>
+                <div class="mockup-line w40"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">04</span>
+            <h3 class="project-title">Portfolio CMS</h3>
+            <p class="project-desc">A headless CMS built with Next.js and Sanity for dynamic portfolio management with full markdown support and CDN delivery.</p>
+            <div class="project-tags">
+              <span>Next.js</span><span>Sanity</span><span>TypeScript</span><span>Vercel</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Skills</span>
+        <h2 class="section-title">What I<br/><em>Work With.</em></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h4>Frontend</h4>
+          <ul>
+            <li><span>React / Next.js</span><div class="bar"><div class="fill" style="--w:92%"></div></div></li>
+            <li><span>TypeScript</span><div class="bar"><div class="fill" style="--w:88%"></div></div></li>
+            <li><span>CSS / Tailwind</span><div class="bar"><div class="fill" style="--w:95%"></div></div></li>
+            <li><span>Figma / UI Design</span><div class="bar"><div class="fill" style="--w:80%"></div></div></li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Backend</h4>
+          <ul>
+            <li><span>Node.js / Express</span><div class="bar"><div class="fill" style="--w:90%"></div></div></li>
+            <li><span>Python / Flask</span><div class="bar"><div class="fill" style="--w:85%"></div></div></li>
+            <li><span>GraphQL</span><div class="bar"><div class="fill" style="--w:75%"></div></div></li>
+            <li><span>REST API Design</span><div class="bar"><div class="fill" style="--w:93%"></div></div></li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Data & Cloud</h4>
+          <ul>
+            <li><span>MongoDB</span><div class="bar"><div class="fill" style="--w:88%"></div></div></li>
+            <li><span>PostgreSQL</span><div class="bar"><div class="fill" style="--w:80%"></div></div></li>
+            <li><span>AWS / GCP</span><div class="bar"><div class="fill" style="--w:70%"></div></div></li>
+            <li><span>Docker / CI/CD</span><div class="bar"><div class="fill" style="--w:77%"></div></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <span class="section-tag">04 / Contact</span>
+        <h2 class="contact-title">Let's build<br/><em>something great.</em></h2>
+        <p class="contact-sub">I'm open to freelance projects, full-time roles, and interesting collaborations. Don't hesitate to reach out.</p>
+        <a href="mailto:your@email.com" class="contact-email">your@email.com ↗</a>
+        <div class="contact-socials">
+          <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+          <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Your Name. Built with care.</span>
+      <a href="#home" class="back-top">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
