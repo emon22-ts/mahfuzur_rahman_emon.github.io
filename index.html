@@ -5,50 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Mahfuzur Rahman Emon — First Class Honours Computing Systems graduate in London. Graduate software engineer focused on cloud infrastructure, DevOps and automation, with full-stack, applied AI and open-source experience." />
   <meta name="author" content="Mahfuzur Rahman Emon" />
-  <meta name="theme-color" content="#0a0c10" />
+  <meta name="theme-color" content="#0a0b0d" />
   <title>Mahfuzur Rahman Emon — Graduate Software Engineer | Cloud &amp; DevOps</title>
   <link rel="canonical" href="https://emon22-ts.github.io/mahfuzur_rahman_emon.github.io/" />
 
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mahfuzur Rahman Emon" />
   <meta property="og:title" content="Mahfuzur Rahman Emon — Graduate Software Engineer | Cloud &amp; DevOps" />
   <meta property="og:description" content="First Class Honours Computing Systems graduate in London, focused on cloud infrastructure, DevOps and automation — with full-stack, applied AI and open-source experience." />
   <meta property="og:url" content="https://emon22-ts.github.io/mahfuzur_rahman_emon.github.io/" />
   <meta property="og:locale" content="en_GB" />
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Mahfuzur Rahman Emon — Graduate Software Engineer | Cloud &amp; DevOps" />
   <meta name="twitter:description" content="First Class Honours Computing Systems graduate in London, focused on cloud, DevOps and automation." />
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%230a0c10'/%3E%3Crect x='3.5' y='3.5' width='57' height='57' rx='11' fill='none' stroke='%234cc2ff' stroke-width='2.5'/%3E%3Ctext x='50%25' y='53%25' font-family='monospace' font-size='26' font-weight='700' text-anchor='middle' dominant-baseline='middle' fill='%234cc2ff'%3EME%3C/text%3E%3C/svg%3E" />
+  <!-- Text/CSS-based favicon (no external image) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f0c24b'/%3E%3Ctext x='50%25' y='52%25' font-family='Arial,sans-serif' font-size='30' font-weight='800' text-anchor='middle' dominant-baseline='middle' fill='%231b1403'%3EME%3C/text%3E%3C/svg%3E" />
 
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&family=DM+Mono:wght@400;500&family=Fraunces:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="noise"></div>
   <div class="scroll-progress" id="scroll-progress"></div>
   <a href="#main" class="skip-link">Skip to content</a>
-  <div class="grid-bg" aria-hidden="true"></div>
 
   <!-- ===== NAVIGATION ===== -->
   <nav class="nav" id="nav" aria-label="Primary">
-    <a href="#home" class="nav-logo" aria-label="Home"><span class="brk">~/</span>emon<span class="caret">_</span></a>
+    <a href="#home" class="nav-logo" aria-label="Home">ME<span class="dot">.</span></a>
     <ul class="nav-links" id="nav-links">
-      <li><a href="#about">about</a></li>
-      <li><a href="#work">projects</a></li>
-      <li><a href="#skills">skills</a></li>
-      <li><a href="#experience">experience</a></li>
-      <li><a href="#education">education</a></li>
-      <li><a href="#contact">contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-right">
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle colour theme" title="Toggle theme">
         <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
         <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.3 6.3 0 0 0 10.5 10.5z"/></svg>
       </button>
-      <a href="resume.pdf" class="nav-cta" target="_blank" rel="noopener">resume.pdf</a>
+      <a href="resume.pdf" class="nav-cta" target="_blank">Résumé</a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
@@ -59,11 +64,18 @@
 
   <!-- ===== HERO ===== -->
   <section class="hero" id="home">
+    <div class="hero-bg-text" aria-hidden="true">EMON</div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-grid-lines" aria-hidden="true"></div>
+
     <div class="container hero-inner">
       <div class="hero-main">
-        <p class="hero-prompt reveal"><span class="pr">mahfuzur@london</span>:<span class="pa">~</span>$ whoami</p>
-        <h1 class="hero-title reveal">Mahfuzur<br/>Rahman Emon</h1>
-        <p class="hero-role reveal"><span class="tok">role</span> = <span class="str">"Graduate Software Engineer · Cloud &amp; DevOps"</span></p>
+        <p class="hero-tag reveal"><span class="pulse"></span> Available for graduate roles — Sept 2026</p>
+        <h1 class="hero-title reveal">
+          <span class="line">Mahfuzur</span>
+          <span class="line">Rahman <span class="serif">Emon</span></span>
+        </h1>
+        <p class="hero-headline reveal">Graduate Software Engineer · Cloud &amp; DevOps</p>
         <p class="hero-sub reveal">
           First Class Honours Computing Systems graduate from Ulster University, building software
           applications and working toward <strong>cloud infrastructure</strong>, <strong>automation</strong>
@@ -71,8 +83,8 @@
           and open-source contributions.
         </p>
         <div class="hero-cta reveal">
-          <a href="#work" class="btn btn-primary">View projects →</a>
-          <a href="resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener">Download CV</a>
+          <a href="#work" class="btn btn-primary" data-text="View My Work">View My Work</a>
+          <a href="resume.pdf" class="btn btn-ghost" target="_blank">Download CV</a>
         </div>
         <div class="hero-socials reveal">
           <a href="https://github.com/emon22-ts" target="_blank" rel="noopener">GitHub ↗</a>
@@ -81,149 +93,211 @@
         </div>
       </div>
 
-      <aside class="status-panel reveal" aria-label="Status">
-        <div class="sp-head">
-          <span class="sp-dots"><i></i><i></i><i></i></span>
-          <span class="sp-title">status.json</span>
+      <aside class="hero-card reveal" aria-label="Quick facts">
+        <div class="hero-card-top">
+          <div class="monogram">ME</div>
+          <div class="hc-id">
+            <div class="hc-name">Mahfuzur R. Emon</div>
+            <div class="hc-role">Full-stack · Cloud · AI Developer</div>
+          </div>
         </div>
-        <div class="sp-body">
-          <div class="sp-row"><span class="sp-k">status</span><span class="sp-v ok"><span class="dot-ok"></span>available</span></div>
-          <div class="sp-row"><span class="sp-k">available_from</span><span class="sp-v">Sept 2026</span></div>
-          <div class="sp-row"><span class="sp-k">location</span><span class="sp-v">London, UK</span></div>
-          <div class="sp-row"><span class="sp-k">degree</span><span class="sp-v">BSc (Hons) — First Class</span></div>
-          <div class="sp-row"><span class="sp-k">focus</span><span class="sp-v">Cloud · DevOps · Full-stack</span></div>
-          <div class="sp-row"><span class="sp-k">open_source</span><span class="sp-v">OWASP OpenShield</span></div>
-        </div>
+        <ul class="hc-facts">
+          <li><span>Location</span><b>London, UK</b></li>
+          <li><span>Degree</span><b>BSc (Hons) Computing Systems — First Class Honours</b></li>
+          <li><span>Focus</span><b>Cloud-native platforms &amp; applied AI</b></li>
+          <li><span>Open source</span><b>OWASP OpenShield contributor</b></li>
+        </ul>
       </aside>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
     </div>
   </section>
 
-  <!-- ===== STACK STRIP ===== -->
-  <div class="strip-wrap">
-    <div class="strip">
-      <span>Python</span><span class="d">/</span><span>TypeScript</span><span class="d">/</span><span>Node.js</span><span class="d">/</span>
-      <span>Azure</span><span class="d">/</span><span>GitHub Actions</span><span class="d">/</span><span>FastAPI</span><span class="d">/</span>
-      <span>Angular</span><span class="d">/</span><span>React</span><span class="d">/</span><span>TensorFlow</span><span class="d">/</span><span>MongoDB</span><span class="d">/</span>
-      <span aria-hidden="true">Python</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">TypeScript</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">Node.js</span><span class="d" aria-hidden="true">/</span>
-      <span aria-hidden="true">Azure</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">GitHub Actions</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">FastAPI</span><span class="d" aria-hidden="true">/</span>
-      <span aria-hidden="true">Angular</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">React</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">TensorFlow</span><span class="d" aria-hidden="true">/</span><span aria-hidden="true">MongoDB</span><span class="d" aria-hidden="true">/</span>
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>React</span><span class="sep">✦</span>
+      <span>TypeScript</span><span class="sep">✦</span>
+      <span>Node.js</span><span class="sep">✦</span>
+      <span>Python</span><span class="sep">✦</span>
+      <span>Microsoft Azure</span><span class="sep">✦</span>
+      <span>FastAPI</span><span class="sep">✦</span>
+      <span>Angular</span><span class="sep">✦</span>
+      <span>TensorFlow</span><span class="sep">✦</span>
+      <span>MongoDB</span><span class="sep">✦</span>
+      <span>Flask</span><span class="sep">✦</span>
+      <span aria-hidden="true">React</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">TypeScript</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">Node.js</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">Python</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">Microsoft Azure</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">FastAPI</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">Angular</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">TensorFlow</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">MongoDB</span><span class="sep" aria-hidden="true">✦</span>
+      <span aria-hidden="true">Flask</span><span class="sep" aria-hidden="true">✦</span>
     </div>
   </div>
 
   <!-- ===== ABOUT ===== -->
-  <section class="section" id="about">
+  <section class="about section" id="about">
     <div class="container">
-      <header class="sec-head reveal">
-        <span class="sec-label">01 — about</span>
-        <h2 class="sec-title">Building toward cloud &amp; DevOps.</h2>
-      </header>
+      <div class="section-header reveal">
+        <span class="section-tag">01 / About</span>
+        <h2 class="section-title">A developer<br/>who <em>ships.</em></h2>
+      </div>
       <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="img-placeholder">
+            <div class="img-initials">ME</div>
+            <div class="img-caption">Mahfuzur Rahman Emon</div>
+          </div>
+          <div class="about-badge"><span class="pulse"></span> Open to opportunities</div>
+        </div>
         <div class="about-text reveal">
-          <p class="lead">I'm a London-based graduate software engineer moving toward cloud engineering and DevOps, with a full-stack foundation across Python, TypeScript and modern web frameworks.</p>
+          <p class="lead">I'm a London-based graduate software engineer moving toward <strong>cloud engineering and DevOps</strong>, with a full-stack foundation across Python, TypeScript and modern web frameworks.</p>
           <p>I earned a <strong>First Class Honours</strong> BSc in Computing Systems from Ulster University (awarded September 2026), but most of what I know comes from building. My independent and academic projects each taught me a different corner of production software — cloud architecture on <strong>Azure</strong>, CI/CD with GitHub Actions, deep-learning explainability and full-stack API design.</p>
           <p>I contribute to <strong>OWASP OpenShield</strong>, an open-source Azure security project, where my pull requests are merged after core-team review. I care about secure, well-tested code and reliable deployment — and I'm actively deepening my cloud, automation and infrastructure skills to grow into a cloud/DevOps engineering role.</p>
+          <div class="about-stats">
+            <div class="astat"><b>4</b><span>Flagship projects</span></div>
+            <div class="astat"><b>1st</b><span>Class Honours</span></div>
+            <div class="astat"><b>2×</b><span>Dean's List</span></div>
+          </div>
+          <div class="about-links">
+            <a href="resume.pdf" class="btn btn-primary" target="_blank" data-text="Download CV">Download CV</a>
+            <a href="https://github.com/emon22-ts" target="_blank" class="btn btn-ghost">GitHub ↗</a>
+          </div>
         </div>
-        <aside class="about-facts reveal">
-          <div class="fact"><span class="fk">// education</span><b>BSc (Hons) Computing Systems</b><small>Ulster University · First Class Honours</small></div>
-          <div class="fact"><span class="fk">// recognition</span><b>Dean's List</b><small>Years 1 &amp; 2</small></div>
-          <div class="fact"><span class="fk">// open source</span><b>OWASP OpenShield</b><small>Merged pull requests</small></div>
-          <div class="fact"><span class="fk">// based in</span><b>London, UK</b><small>Available Sept 2026</small></div>
-        </aside>
       </div>
     </div>
   </section>
 
   <!-- ===== WORK ===== -->
-  <section class="section" id="work">
+  <section class="work section" id="work">
     <div class="container">
-      <header class="sec-head reveal">
-        <span class="sec-label">02 — projects</span>
-        <h2 class="sec-title">Selected work.</h2>
-      </header>
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Work</span>
+        <h2 class="section-title">Selected<br/><em>Projects.</em></h2>
+      </div>
 
-      <div class="svc-grid">
-
-        <article class="svc-card svc-feature reveal">
-          <div class="svc-top">
-            <span class="svc-id">svc_01</span>
-            <span class="pill pill-cloud">Azure</span>
+      <!-- Featured -->
+      <article class="feature-card reveal">
+        <div class="feature-visual">
+          <div class="fv-grid"></div>
+          <span class="fv-num">01</span>
+          <div class="fv-mock" aria-hidden="true">
+            <div class="fv-bar"><span></span><span></span><span></span></div>
+            <div class="fv-body">
+              <div class="fv-line w40 accent"></div>
+              <div class="fv-line w90"></div>
+              <div class="fv-line w70"></div>
+              <div class="fv-thumb"></div>
+              <div class="fv-line w80"></div>
+              <div class="fv-line w55"></div>
+            </div>
           </div>
-          <h3 class="svc-name">EduStream+</h3>
-          <p class="svc-kicker">Cloud-native learning platform · Independent</p>
-          <p class="svc-desc">Educators publish courses that combine video lectures, illustrated notes and audio in one place. Built to stay fast and secure under real load.</p>
-          <ul class="svc-points">
+          <div class="fv-chips">
+            <span>1GB+ uploads</span><span>Key Vault</span><span>CI/CD</span>
+          </div>
+        </div>
+        <div class="feature-info">
+          <span class="project-kicker">Cloud-native platform · Independent</span>
+          <h3 class="project-title">EduStream+</h3>
+          <p class="project-desc">A learning platform where educators publish courses that combine video lectures, illustrated notes and audio in one place. Built to stay fast and secure under real load.</p>
+          <ul class="feature-points">
             <li>Direct-to-blob uploads with scoped, time-limited SAS tokens handle 1GB+ videos without request timeouts.</li>
             <li>Two-tier content moderation (Azure AI Content Safety with a local fallback) screens all user-submitted text.</li>
-            <li>Secrets in Azure Key Vault via Managed Identity; Helmet, rate limiting and Application Insights; shipped through GitHub Actions.</li>
+            <li>Secrets held in Azure Key Vault via Managed Identity, with Helmet, rate limiting and Application Insights telemetry; shipped through GitHub Actions.</li>
           </ul>
-          <div class="svc-tags"><span>Node.js</span><span>Express</span><span>Azure App Service</span><span>Blob + Table Storage</span><span>Key Vault</span><span>CI/CD</span></div>
-          <div class="svc-foot">
-            <a href="https://github.com/emon22-ts/edustream" target="_blank" rel="noopener" class="svc-link">View Source Code ↗</a>
+          <div class="project-tags">
+            <span>Node.js</span><span>Express</span><span>Azure App Service</span><span>Blob + Table Storage</span><span>Key Vault</span>
           </div>
-        </article>
+          <div class="project-links">
+            <a href="https://github.com/emon22-ts/edustream" target="_blank" rel="noopener" class="plink">View Source Code ↗</a>
+            <span class="deploy-note">Independent project · Azure App Service</span>
+          </div>
+        </div>
+      </article>
 
-        <article class="svc-card reveal">
-          <div class="svc-top">
-            <span class="svc-id">svc_02</span>
-            <span class="pill">Applied AI</span>
+      <div class="projects-grid">
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+          <div class="pc-head">
+            <span class="project-num">02</span>
+            <a href="https://github.com/emon22-ts/smart-eye" target="_blank" class="pc-arrow" aria-label="View Smart Eye code">↗</a>
           </div>
-          <h3 class="svc-name">Smart Eye</h3>
-          <p class="svc-kicker">Ocular-health screening · University capstone</p>
-          <p class="svc-desc">Fuses three AI pipelines — fundus and anterior-segment CNN classifiers plus real-time fatigue detection — into one Ocular Health Index.</p>
-          <ul class="svc-points">
+          <span class="project-kicker">Applied AI · University capstone</span>
+          <h3 class="project-title">Smart Eye</h3>
+          <p class="project-desc">An explainable ocular-health screening platform that fuses three AI pipelines — fundus and anterior-segment CNN classifiers plus real-time fatigue detection — into one Ocular Health Index.</p>
+          <ul class="pc-points">
             <li>Grad-CAM heatmaps show which image regions drove each prediction.</li>
             <li>A Mamdani fuzzy inference system in pure NumPy fuses confidence, fatigue and symptom intensity.</li>
             <li>React + Vite over a FastAPI API, with PDF reports and an EN/BN bilingual UI.</li>
           </ul>
-          <div class="svc-tags"><span>Python</span><span>FastAPI</span><span>TensorFlow / Keras</span><span>React</span><span>Grad-CAM</span></div>
-          <div class="svc-foot">
-            <a href="https://github.com/emon22-ts/smart-eye" target="_blank" rel="noopener" class="svc-link">View Source Code ↗</a>
+          <div class="project-tags">
+            <span>Python</span><span>FastAPI</span><span>TensorFlow / Keras</span><span>React</span><span>Grad-CAM</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/emon22-ts/smart-eye" target="_blank" rel="noopener" class="plink">View Source Code ↗</a>
           </div>
         </article>
 
-        <article class="svc-card reveal">
-          <div class="svc-top">
-            <span class="svc-id">svc_03</span>
-            <span class="pill">Product</span>
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+          <div class="pc-head">
+            <span class="project-num">03</span>
+            <a href="https://github.com/emon22-ts/Care_Flow_AI" target="_blank" class="pc-arrow" aria-label="View CareFlow AI code">↗</a>
           </div>
-          <h3 class="svc-name">CareFlow AI</h3>
-          <p class="svc-kicker">NHS prioritisation copilot · Independent</p>
-          <p class="svc-desc">Prioritises NHS appointments and referrals across wards and patient queues, with separate doctor and patient interfaces.</p>
-          <ul class="svc-points">
+          <span class="project-kicker">Product · Decision support</span>
+          <h3 class="project-title">CareFlow AI</h3>
+          <p class="project-desc">A decision-support copilot that prioritises NHS appointments and referrals across wards and patient queues, with separate doctor and patient interfaces.</p>
+          <ul class="pc-points">
             <li>Typed React single-page app with TanStack Router and Query.</li>
             <li>Form flows validated end-to-end with react-hook-form and Zod; metrics in Recharts.</li>
-            <li>Accessible component system on Radix UI and Tailwind.</li>
+            <li>Accessible component system on Radix UI and Tailwind, shipped to Vercel.</li>
           </ul>
-          <div class="svc-tags"><span>React</span><span>TypeScript</span><span>Vite</span><span>TanStack</span><span>Tailwind</span></div>
-          <div class="svc-foot">
-            <a href="https://github.com/emon22-ts/Care_Flow_AI" target="_blank" rel="noopener" class="svc-link">View Source Code ↗</a>
+          <div class="project-tags">
+            <span>React</span><span>TypeScript</span><span>Vite</span><span>TanStack</span><span>Tailwind</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/emon22-ts/Care_Flow_AI" target="_blank" rel="noopener" class="plink">View Source Code ↗</a>
           </div>
         </article>
 
-        <article class="svc-card reveal">
-          <div class="svc-top">
-            <span class="svc-id">svc_04</span>
-            <span class="pill">Full-stack</span>
+        <!-- Project 4 -->
+        <article class="project-card reveal">
+          <div class="pc-head">
+            <span class="project-num">04</span>
+            <a href="https://github.com/emon22-ts/smart-study-planner" target="_blank" class="pc-arrow" aria-label="View Smart Study Planner code">↗</a>
           </div>
-          <h3 class="svc-name">Smart Study Planner</h3>
-          <p class="svc-kicker">Study workspace · Independent</p>
-          <p class="svc-desc">Organises learning as Subject → Topic → Subtopic with exercises, notes and full-text search across all of them.</p>
-          <ul class="svc-points">
+          <span class="project-kicker">Full-stack · Independent</span>
+          <h3 class="project-title">Smart Study Planner</h3>
+          <p class="project-desc">A study workspace that organises learning as Subject → Topic → Subtopic with exercises, notes and full-text search across all of them.</p>
+          <ul class="pc-points">
             <li>Flask REST API on MongoDB with JWT sessions, bcrypt hashing and Auth0 login.</li>
             <li>Angular 17 front end using standalone components, signals and Reactive Forms.</li>
             <li>Three Chart.js analytics views plus an admin-only dashboard.</li>
           </ul>
-          <div class="svc-tags"><span>Flask</span><span>MongoDB</span><span>Angular 17</span><span>Chart.js</span><span>JWT</span></div>
-          <div class="svc-foot">
-            <a href="https://github.com/emon22-ts/smart-study-planner" target="_blank" rel="noopener" class="svc-link">View Source Code ↗</a>
+          <div class="project-tags">
+            <span>Flask</span><span>MongoDB</span><span>Angular 17</span><span>Chart.js</span><span>JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/emon22-ts/smart-study-planner" target="_blank" rel="noopener" class="plink">View Source Code ↗</a>
           </div>
         </article>
 
-        <article class="svc-card svc-ghost reveal">
-          <div class="svc-top"><span class="svc-id">+ more</span></div>
-          <h3 class="svc-name">On GitHub</h3>
-          <p class="svc-desc">Experiments, open-source contributions and work in progress live on my profile.</p>
-          <div class="svc-foot"><a href="https://github.com/emon22-ts" target="_blank" rel="noopener" class="svc-link">@emon22-ts ↗</a></div>
+        <!-- GitHub card -->
+        <article class="project-card gh-card reveal">
+          <div class="pc-head">
+            <span class="project-num">+</span>
+          </div>
+          <h3 class="project-title">More on GitHub</h3>
+          <p class="project-desc">Experiments, open-source contributions and work in progress live on my GitHub profile.</p>
+          <a href="https://github.com/emon22-ts" target="_blank" class="btn btn-ghost" style="margin-top:auto">Visit @emon22-ts ↗</a>
         </article>
 
       </div>
@@ -231,51 +305,92 @@
   </section>
 
   <!-- ===== SKILLS ===== -->
-  <section class="section" id="skills">
+  <section class="skills section" id="skills">
     <div class="container">
-      <header class="sec-head reveal">
-        <span class="sec-label">03 — skills</span>
-        <h2 class="sec-title">The stack I work with.</h2>
-      </header>
-      <p class="skills-note reveal">// every technology below is drawn from completed projects or open-source work — no filler, no self-rated percentages</p>
-      <div class="matrix">
-        <div class="mrow reveal"><span class="mkey">languages</span><div class="chips"><span>Python</span><span>TypeScript</span><span>JavaScript</span></div></div>
-        <div class="mrow reveal"><span class="mkey">frontend</span><div class="chips"><span>React</span><span>Angular</span><span>Vite</span><span>Tailwind CSS</span><span>Radix UI</span><span>TanStack</span></div></div>
-        <div class="mrow reveal"><span class="mkey">backend</span><div class="chips"><span>Node.js</span><span>Express</span><span>FastAPI</span><span>Flask</span><span>REST APIs</span></div></div>
-        <div class="mrow reveal"><span class="mkey">cloud · azure</span><div class="chips"><span>App Service</span><span>Blob Storage</span><span>Table Storage</span><span>Key Vault</span><span>Application Insights</span><span>Managed Identity</span><span>SAS tokens</span></div></div>
-        <div class="mrow reveal"><span class="mkey">devops</span><div class="chips"><span>Git</span><span>GitHub Actions</span><span>CI/CD pipelines</span><span>pytest</span></div></div>
-        <div class="mrow reveal"><span class="mkey">ai · ml</span><div class="chips"><span>TensorFlow</span><span>Keras</span><span>CNNs (ResNet-50, VGG-16, EfficientNet)</span><span>scikit-learn</span><span>NumPy</span><span>Grad-CAM</span><span>RAG &amp; vector stores</span></div></div>
-        <div class="mrow reveal"><span class="mkey">data · tools</span><div class="chips"><span>MongoDB</span><span>SQLite</span><span>JWT</span><span>OAuth (Auth0, Google)</span><span>Helmet</span><span>Rate limiting</span></div></div>
+      <div class="section-header reveal">
+        <span class="section-tag">03 / Skills</span>
+        <h2 class="section-title">What I<br/><em>work with.</em></h2>
+      </div>
+      <p class="skills-note reveal">Every technology below is drawn from completed projects or open-source contributions — no filler, no self-rated percentages.</p>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">01</span> Programming Languages</h4>
+          <div class="chips">
+            <span>Python</span><span>TypeScript</span><span>JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">02</span> Frontend</h4>
+          <div class="chips">
+            <span>React</span><span>Angular</span><span>Vite</span><span>Tailwind CSS</span><span>Radix UI</span><span>TanStack</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">03</span> Backend</h4>
+          <div class="chips">
+            <span>Node.js</span><span>Express</span><span>FastAPI</span><span>Flask</span><span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">04</span> Cloud (Azure)</h4>
+          <div class="chips">
+            <span>App Service</span><span>Blob Storage</span><span>Table Storage</span><span>Key Vault</span><span>Application Insights</span><span>Managed Identity</span><span>SAS tokens</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">05</span> DevOps &amp; Automation</h4>
+          <div class="chips">
+            <span>Git</span><span>GitHub Actions</span><span>CI/CD pipelines</span><span>pytest</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">06</span> AI &amp; Machine Learning</h4>
+          <div class="chips">
+            <span>TensorFlow</span><span>Keras</span><span>CNNs (ResNet-50, VGG-16, EfficientNet)</span><span>scikit-learn</span><span>NumPy</span><span>Grad-CAM</span><span>Fuzzy inference</span><span>RAG &amp; vector stores</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><span class="sg-no">07</span> Databases &amp; Tools</h4>
+          <div class="chips">
+            <span>MongoDB</span><span>SQLite</span><span>JWT</span><span>OAuth (Auth0, Google)</span><span>Helmet</span><span>Rate limiting</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ===== EXPERIENCE ===== -->
-  <section class="section" id="experience">
+  <section class="experience section" id="experience">
     <div class="container">
-      <header class="sec-head reveal">
-        <span class="sec-label">04 — experience &amp; contributions</span>
-        <h2 class="sec-title">Where I've contributed.</h2>
-      </header>
+      <div class="section-header reveal">
+        <span class="section-tag">04 / Experience &amp; Contributions</span>
+        <h2 class="section-title">Where I've<br/><em>contributed.</em></h2>
+      </div>
       <div class="timeline">
         <div class="tl-item reveal">
-          <div class="tl-dot"></div>
+          <div class="tl-marker"></div>
           <div class="tl-body">
-            <div class="tl-top"><h3>Open-Source Contributor — OWASP OpenShield</h3><span class="tl-date">2026</span></div>
+            <div class="tl-top">
+              <h3>Open-Source Contributor — OWASP OpenShield</h3>
+              <span class="tl-date">2026</span>
+            </div>
             <p class="tl-sub">OWASP-listed open-source Cloud Security Posture Management (CSPM) tool for Azure. Contributions merged after core-team review.</p>
             <ul class="tl-points">
               <li>Added an Azure Privileged Identity Management detection rule (AZ-IDN-004) flagging admin roles without PIM, with its remediation playbook.</li>
               <li>Built an AI document-ingestion and vector-store RAG pipeline (AI-004) supporting the platform's AI features.</li>
               <li>Made the Flask API test-safe and wired the full pytest suite into the GitHub Actions CI pipeline.</li>
             </ul>
-            <!-- TODO (Mahfuzur): paste the OWASP OpenShield repo URL and your merged pull-request links here so recruiters can verify them, e.g.:
-                 <div class="tl-links"><a class="svc-link" href="PR_URL" target="_blank" rel="noopener">View merged PR ↗</a></div> -->
+            <!-- TODO (Mahfuzur): paste the OWASP OpenShield repo URL and your merged pull-request links below so recruiters can verify them, e.g.:
+                 <div class="tl-links"><a class="plink" href="PR_URL" target="_blank" rel="noopener">View merged PR ↗</a></div> -->
           </div>
         </div>
         <div class="tl-item reveal">
-          <div class="tl-dot"></div>
+          <div class="tl-marker"></div>
           <div class="tl-body">
-            <div class="tl-top"><h3>Student Representative &amp; SSCC Member — Ulster University</h3><span class="tl-date">Jan 2024 – Sep 2026</span></div>
+            <div class="tl-top">
+              <h3>Student Representative &amp; SSCC Member — Ulster University</h3>
+              <span class="tl-date">Jan 2024 – Sep 2026</span>
+            </div>
             <p class="tl-sub">Represented students, raised their concerns, and took part in discussions about modules and the course.</p>
           </div>
         </div>
@@ -284,31 +399,34 @@
   </section>
 
   <!-- ===== EDUCATION ===== -->
-  <section class="section" id="education">
+  <section class="education section" id="education">
     <div class="container">
-      <header class="sec-head reveal">
-        <span class="sec-label">05 — education</span>
-        <h2 class="sec-title">Study &amp; recognition.</h2>
-      </header>
+      <div class="section-header reveal">
+        <span class="section-tag">05 / Education</span>
+        <h2 class="section-title">Study &amp;<br/><em>recognition.</em></h2>
+      </div>
       <div class="edu-grid">
         <div class="edu-card edu-main reveal">
-          <div class="edu-top"><h3>Ulster University, London</h3><span class="edu-date">Awarded Sep 2026</span></div>
+          <div class="edu-top">
+            <h3>Ulster University, London</h3>
+            <span class="edu-date">Awarded Sep 2026</span>
+          </div>
           <p class="edu-degree">BSc (Hons) Computing Systems</p>
           <p class="edu-grade">First Class Honours · Dean's List, Year 1 &amp; 2</p>
         </div>
         <div class="edu-card reveal">
-          <h4>// certifications</h4>
+          <h4>Certifications</h4>
           <ul>
             <li>Python for Beginners — QA Ltd</li>
             <li>Career Essentials in Generative AI — Microsoft &amp; LinkedIn</li>
           </ul>
         </div>
         <div class="edu-card reveal">
-          <h4>// highlights</h4>
+          <h4>Highlights</h4>
           <ul>
             <li>First Class Honours degree</li>
-            <li>Dean's List, Years 1 &amp; 2</li>
-            <li>OWASP OpenShield contributor</li>
+            <li>Dean's List recognition, Years 1 &amp; 2</li>
+            <li>Open-source contributor, OWASP OpenShield</li>
           </ul>
         </div>
       </div>
@@ -316,22 +434,19 @@
   </section>
 
   <!-- ===== CONTACT ===== -->
-  <section class="section contact" id="contact">
+  <section class="contact section" id="contact">
     <div class="container">
-      <header class="sec-head reveal">
-        <span class="sec-label">06 — contact</span>
-        <h2 class="sec-title">Let's talk.</h2>
-      </header>
-      <div class="contact-card reveal">
-        <p class="contact-sub">Available for full-time roles in London from September 2026, and open to interesting collaborations. The fastest way to reach me is email.</p>
+      <div class="contact-inner reveal">
+        <span class="section-tag">06 / Contact</span>
+        <h2 class="contact-title">Let's build<br/><em>something great.</em></h2>
+        <p class="contact-sub">I'm available for full-time roles in London from September 2026, and open to interesting collaborations. The fastest way to reach me is email.</p>
         <div class="contact-email-row">
-          <code class="contact-email">mahfuzur.emon01@gmail.com</code>
-          <button class="copy-btn" id="copy-email" data-copy="mahfuzur.emon01@gmail.com" aria-label="Copy email address">Copy</button>
+          <a href="mailto:mahfuzur.emon01@gmail.com" class="contact-email">mahfuzur.emon01@gmail.com</a>
+          <button class="copy-btn" id="copy-email" data-copy="mahfuzur.emon01@gmail.com" aria-label="Copy email">Copy</button>
         </div>
-        <div class="contact-links">
-          <a href="mailto:mahfuzur.emon01@gmail.com">Email</a>
-          <a href="https://github.com/emon22-ts" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/mahfuzur-rahman-emon-a06a91328" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <div class="contact-socials">
+          <a href="https://github.com/emon22-ts" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/mahfuzur-rahman-emon-a06a91328" target="_blank" rel="noopener">LinkedIn</a>
           <a href="resume.pdf" target="_blank" rel="noopener">Download CV</a>
           <a href="tel:+447440091289">+44 7440 091289</a>
         </div>
@@ -344,9 +459,9 @@
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container footer-inner">
-      <span><span class="brk">~/</span>emon — © 2026 Mahfuzur Rahman Emon</span>
-      <span class="footer-mid">Built &amp; deployed from London</span>
-      <a href="#home" class="back-top">↑ top</a>
+      <span>© 2026 Mahfuzur Rahman Emon</span>
+      <span class="footer-mid">Designed &amp; built in London</span>
+      <a href="#home" class="back-top">Back to top ↑</a>
     </div>
   </footer>
 
