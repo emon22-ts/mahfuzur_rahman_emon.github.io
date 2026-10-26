@@ -77,10 +77,11 @@
   }
   toggle.addEventListener('click', () => {
     const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     setBars(open);
   });
   links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-    links.classList.remove('open'); setBars(false);
+    links.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); setBars(false);
   }));
 })();
 

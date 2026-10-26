@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emon22-ts.github.io/mahfuzur_rahman_emon.github.io/sitemap.xml
