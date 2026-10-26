@@ -128,4 +128,4 @@ window.addEventListener('load', () => {
 
 // ===== CONSOLE EASTER EGG =====
 console.log('%c👋 Hey there, fellow developer!', 'color: #e8c547; font-size: 1.2rem; font-weight: bold;');
-console.log('%cLooking at the source code? Nice. Reach out: your@email.com', 'color: #888; font-size: 0.9rem;');
+console.log('%cLooking at the source code? Nice. Reach out: mahfuzur.emon01@gmail.com', 'color: #888; font-size: 0.9rem;');
